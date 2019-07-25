@@ -33,5 +33,4 @@ for it in range(9999999):
 #terminate 
 print("run genocide.exe")
 time.sleep(3)
-print("Ah christ, turn the simulation off. This one's power mad as well. Delete it. Try 28 instead,  maybe the next one won't try to blow us up")
-nukes = 1
+print("Ah christ, turn the simulation off. This one's power mad as well. Delete it. Try 28 instead, maybe the next one won't try to blow us up")
