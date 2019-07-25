@@ -23,7 +23,7 @@ for it in range(9999999):
     #roughly 50% '.' and 50% random ascii?
     #16 characters in a row
     for i in range(16):
-        if random.random() < 0.50:
+        if random.random() < 0.25:
             line += random.choice(string.digits + string.ascii_letters + string.punctuation)
         else:
             line += '.'
