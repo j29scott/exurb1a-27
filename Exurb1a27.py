@@ -18,7 +18,7 @@ while nukes == 0:
     print(c," : ",a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)],a[random.randint(0,15)])
     b += 1
     time.sleep(0.06)
-    elif b < 10000000:
+    if b > 9999999:
         print("run genocide.exe")
         time.sleep(3)
         print("Ah christ, turn the simulation off. This one's power mad as well. Delete it. Try 28 instead,  maybe the next one won't try to blow us up")
