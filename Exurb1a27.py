@@ -20,7 +20,7 @@ for it in range(9999999):
     line = line + "\t"
 
     #not entirely sure what last bit is...
-    #roughly 50% '.' and 50% random ascii?
+    #roughly 25% '.' and 50% random ascii?
     #16 characters in a row
     for i in range(16):
         if random.random() < 0.25:
