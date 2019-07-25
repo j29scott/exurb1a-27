@@ -23,7 +23,7 @@ def lnend(): #Returns the last 16 characters. ~60% periods.
     content=''
     for i in range(16):
         if random.random() < 0.4:
-            content += random.choice(string.digits + string.ascii_lowercase + string.punctuation)
+            content += random.choice(string.digits + string.ascii_letters + string.punctuation)
         else:
             content += '.'
     return(content)
