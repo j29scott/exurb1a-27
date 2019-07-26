@@ -22,7 +22,7 @@ def centerpiece(): #Returns the 8 parts in the middle
 def lnend(): #Returns the last 16 characters. ~60% periods.
     content=''
     for i in range(16):
-        if random.random() < 0.4:
+        if random.random() < 0.35:
             content += random.choice(string.digits + string.ascii_letters + string.punctuation)
         else:
             content += '.'
