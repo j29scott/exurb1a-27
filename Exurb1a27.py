@@ -19,7 +19,7 @@ def centerpiece(): #Returns the 8 parts in the middle
         center += block + ' '
     return(center)
 
-def lnend(): #Returns the last 16 characters. ~60% periods.
+def lnend(): #Returns the last 16 characters. ~65% periods.
     content=''
     for i in range(16):
         if random.random() < 0.35:
